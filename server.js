@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
+var port = 81;
 http.createServer(function(req, res){
     var webLink = url.parse(req.url);
     var filePath = "." + webLink.pathname;
@@ -12,4 +13,4 @@ http.createServer(function(req, res){
         res.writeHead(200, {'Content-type' : 'text/html'});
         res.end(data);
     });
-}).listen(81);
+}).listen(port);

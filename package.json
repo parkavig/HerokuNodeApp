@@ -12,5 +12,13 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkavig/HerokuNodeApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parkavig/HerokuNodeApp/issues"
+  },
+  "homepage": "https://github.com/parkavig/HerokuNodeApp#readme",
   "description": ""
 }

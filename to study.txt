@@ -1,0 +1,6 @@
+what is nodejs with explanation on technical terms
+port number
+nodejs - fs -
+url parts
+
+
